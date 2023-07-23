@@ -38,7 +38,9 @@ class fragmentsearch: Fragment(R.layout.fragmentsearch) {
         writerimagelist.add(writerData(R.drawable.baseline_person_24,"Albert Einstie"))
         writerimagelist.add(writerData(R.drawable.baseline_person_24,"Albert Einstie"))
         writerimagelist.add(writerData(R.drawable.baseline_person_24,"Albert Einstie"))
+        writerimagelist.add(writerData(R.drawable.baseline_person_24,"Ravan"))
         writerimagelist.add(writerData(R.drawable.baseline_person_24,"Albert Einstie"))
+
         var rv =view.findViewById<RecyclerView>(R.id.recyclerView)
         rv.layoutManager=GridLayoutManager(requireContext(),3)
         rv.adapter=searchadapteer(writerimagelist)
