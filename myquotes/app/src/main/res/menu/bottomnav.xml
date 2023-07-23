@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today"
+        android:title="@string/today"
+        android:icon="@drawable/baseline_today_24" />
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/baseline_search_24" />
+    <item
+        android:id="@+id/view"
+        android:title="@string/more"
+        android:icon="@drawable/baseline_density_small_24" />
+    <item
+        android:id="@+id/profile"
+        android:title="@string/proflie"
+        android:icon="@drawable/baseline_person_24" />
+
+
+</menu>
